@@ -6192,7 +6192,9 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important; }
-
+.mb-6{
+  margin-bottom: 10rem !important;
+}
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important; }
@@ -7516,7 +7518,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     right: 0;
     bottom: 0;
-    width: 68%;
+    width: 100%;
     content: '';
     opacity: .3;
     background: #f8ce35;
@@ -8650,7 +8652,21 @@ textarea.form-control {
       color: rgba(0, 0, 0, 0.7); }
       @media (max-width: 767.98px) {
         .sidebar-wrap .fields .icon {
-          right: 10px; } }
+          right: 10px; 
+        }
+        .desktop-banner{
+          background-image: url('../images/blank.png')!important;
+        }
+        .desktop-banner1{
+          background-image: url('../images/blank.png')!important;
+        }
+        .mobile-about{
+          display:block !important;
+          width:100%;
+          height:28%;
+          margin-bottom:15px;
+        }
+      }
     .sidebar-wrap .fields .select-wrap {
       position: relative; }
       .sidebar-wrap .fields .select-wrap select {
@@ -8807,3 +8823,21 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+.desktop-banner{
+  background-image: url('../images/banner.png');
+}
+.desktop-banner1{
+  background-image: url('../images/banner1.png');
+}
+.mobile-about{
+  display:none;
+}
+.dot{
+  color:#f8ce35 !important;
+  font-size: 19px !important;
+}
+.about-training{
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 13.5px !important;
+  text-align: left!important
+}

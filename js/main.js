@@ -320,6 +320,10 @@
 	  document.body.appendChild(css);
 	};
 
+	$(".about_diet").on("click", function(e){
+		e.preventDefault();
+		window.location.href = 'diet/Fitness-House-Diet.docx';
+	})
 
 
 
